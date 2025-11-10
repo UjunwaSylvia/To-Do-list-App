@@ -6,7 +6,7 @@
 }
 
 .Todo_container {
-  background-image: url(../images/summer.jpg);
+  background-image: url(./images/summer.jpg);
   background-position: 100vh;
   background-repeat: repeat;
   width: 100%;
@@ -84,7 +84,7 @@ ul li::before {
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url(../icons/unchecked.jpg);
+  background-image: url(./icons/unchecked.jpg);
   background-size: cover;
   background-position: center;
   top: 5px;
@@ -97,7 +97,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-  background-image: url(../icons/checked.jpg);
+  background-image: url(./icons/checked.jpg);
 }
 
 ul li span {
